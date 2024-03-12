@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Whisper&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +8,15 @@
     --verdeclarissimo: #C8FCD0;
     --verdeclaro: #AAFCB8;
     --verde: #8CD790;
-    --verdeescuro: #77AF9C;
+    --verdeescuro: #005539;
+
+    --fonte-texto: "Whisper", cursive;
+    --fonte-titulo: "Dancing Script", cursive;
 }
 
 
 .cabecalho{
-    background-color: #231a5b;
+    background-color: var(--verdeescuro);
     color: white;
     display: flex;
     align-items: center;
@@ -28,21 +33,23 @@
 .cabecalho-lista-link{
 
 text-decoration: none;
-color: white;
+color: var(--verdeclaro);
 margin-right: 1.5em;
 font-size: 1.5em;
 
 }
 .escola{
-background-color: white;
+background-color: var(--verdeclarissimo);
 color: black;
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 32px 0;
+font-family: var(--fonte-texto);
 }
 .escola-texto-titulo{
     padding: 24px 0;
+    font-family: var(--fonte-titulo);
 }
 .escola-imagem{
     width: 120%;
