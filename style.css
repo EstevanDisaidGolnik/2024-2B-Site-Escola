@@ -52,5 +52,16 @@ font-family: var(--fonte-texto);
     font-family: var(--fonte-titulo);
 }
 .escola-imagem{
-    width: 120%;
+    width: 25%;
 }
+
+.estudante-estudante-div-fotos{
+     width: 25%;
+}
+.estudante-div-icone{
+width: 34px;
+}
+.estudante-div{
+    text-align: center;
+}
+
